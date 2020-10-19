@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #a04632;
+    color: #fff;
+}
+
+.leaderboard {
+    background-color: greenyellow;
+    width: 20.5%;
+}
+.leaderboard li {
+    background-color: chocolate;
+    border: 1px solid gold;
+    text-decoration: none;
+    list-style: none;
+    width: 20%;
+    transform: translateX(5px);
+}
